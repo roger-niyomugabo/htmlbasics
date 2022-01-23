@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img/logoo.png" alt="">
+    </header>
+    <form action="">
+        <p>What is your Gender?</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">male</label><br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">female</label>
+
+
+        <!-- interests -->
+        <p>What are you interested in?</p>
+        <input type="checkbox" id="web">
+        <label for="web">web development</label><br>
+        <input type="checkbox" id="photoshop">
+        <label for="photoshop">photoshop</label><br>
+        <input type="checkbox" id="madona">
+        <label for="madona">Data analysis</label>
+
+        <!-- contact info -->
+        <fieldset>
+            <legend>Contact information</legend>
+            <input type="email" name="email" placeholder="email" required>
+            <span class="tick"></span>
+            <input type="telephone" name="telephone" placeholder="phone number" required>
+            <span class="tick"></span>
+        </fieldset>
+
+        <p>How would you like to be contacted</p>
+        <select>
+            <option value="email"> email</option>
+            <option value="telephone">telephone</option>
+            <option value="instagram">instagram</option>
+        </select>
+        <input type="submit" value="Enrol">
+    </form>
+</body>
+</html>
